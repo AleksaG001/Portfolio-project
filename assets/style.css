@@ -844,3 +844,8 @@ textarea.input {
   /* transform: translateY(-30px); */
   transition-duration: 0.3s;
 }
+@media screen and (max-width: 1180px) {
+  .backtotop button{
+    display: none;
+  }
+}
