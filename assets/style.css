@@ -849,3 +849,9 @@ textarea.input {
     display: none;
   }
 }
+@media (max-width: 767px){
+  .sekcija2{
+    padding-top: 0;
+  }
+}
+ 
