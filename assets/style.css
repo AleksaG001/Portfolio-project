@@ -8,7 +8,7 @@ body {
 }
 .navbar-collapse {
   justify-content: center;
-  margin-right: 12vh;
+  margin-right: 20vh;
 }
 .navbar-collapse a {
   cursor: pointer;
@@ -19,13 +19,12 @@ body {
   text-shadow: 0 0 5px #7fc8a9, 0 0 25px #7fc8a9, 0 0 50px #03e9f4,
     0 0 100px #03e9f4;
 }
-
 .navbar-collapse a {
   color: #ebf4fa;
   text-decoration: none;
   display: inline-block;
   position: relative;
-  font-family: "Dosis", sans-serif;
+  font-weight: bold;
 }
 
 .navbar-collapse a:after {
@@ -44,19 +43,25 @@ body {
   transform: scale(0, 1);
 }
 .navbar-collapse a:hover:after {
-  opacity: 1;
+  opacity: 2;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 .navbar-brand i {
   margin-left: 5vh;
-  color: #ebf4fa;
+  color: #7fc8a9;
 }
 .navbar-nav .nav-link {
   color: #ebf4fa;
 }
 .navigacija {
   background-color: transparent;
+}
+.navbar-nav{
+  margin-top: 1vh;
+}
+.navbar-nav span {
+  color: #7fc8a9;
 }
 .background-container {
   background-image: url(/assets/img/cover.png);
@@ -74,7 +79,9 @@ body {
   margin-top: 3vh;
   font-weight: 700;
 }
-
+.logo img{
+  width: 18.75rem;
+}
 .aboutmetekst {
   padding-top: 3rem;
 }
@@ -157,9 +164,15 @@ body {
 }
 
 .about-img {
-  box-shadow: 0 0 3px #7fc8a9, 0 0 15px #7fc8a9, 0 0 20px #7fc8a9,
-    0 0 30px #7fc8a9;
+  box-shadow: 0 0 3px #7fc8a9, 0 0 10px #7fc8a9, 0 0 10px #7fc8a9,
+    0 0 20px #7fc8a9;
   padding: 10px;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 7%;
+}
+.about-img img{
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 991px) {
   .about-img {
@@ -297,6 +310,9 @@ body {
 .skills{
   background-image: url(/assets/img/cover.png);
 }
+.naslovskills span{
+  color: #7fc8a9;
+}
 .naslovskills{
   color: #e0e0e0;
   font-family: "Montserrat", sans-serif;
@@ -311,7 +327,8 @@ body {
 .skills button:hover{
   width: 8.75rem;
   transition-duration: 0.3s;
-  background-color: #1abc9c;
+  background-color: #7fc8a9;
+  color: black;
   align-items: center;
 }
 .skills .progres{
@@ -405,13 +422,13 @@ body {
 }
 
 .contact-info-form {
-  background-color: #1abc9c;
+  background-color: #7fc8a9;
   position: relative;
 }
 
 .form .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #1abc9c);
+  background: linear-gradient(135deg, transparent 20%, #7fc8a9);
   position: absolute;
 }
 
@@ -434,7 +451,7 @@ body {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1abc9c;
+  background-color: #7fc8a9;
   transform: rotate(45deg);
   bottom: 66px;
   left: -13px;
@@ -503,7 +520,7 @@ textarea.input {
 
 .form .btn {
   padding: 0.6rem 1.3rem;
-  background-color: #1abc9c;
+  background-color: #7fc8a9;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
   color: white;
@@ -542,7 +559,7 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #1abc9c;
+  background-color: #7fc8a9;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -574,7 +591,7 @@ textarea.input {
 }
 
 .contact-info .title {
-  color: #1abc9c;
+  color: #7fc8a9;
 }
 
 .text {
@@ -612,7 +629,7 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 43px;
-  background: linear-gradient(45deg, #1abc9c, #1abc9c);
+  background: linear-gradient(45deg, #7fc8a9, #7fc8a9);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -640,7 +657,7 @@ textarea.input {
   font-size: 22px;
   margin-bottom: 23px;
   margin-right: 8px;
-  color: #1abc9c;
+  color: #7fc8a9;
 }
 
 .big-circle {
@@ -648,7 +665,7 @@ textarea.input {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #1abc9c, #1abc9c);
+  background: linear-gradient(to bottom, #7fc8a9, #7fc8a9);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);
@@ -818,12 +835,11 @@ textarea.input {
   width: 140px;
   border-radius: 50px;
   transition-duration: 0.3s;
-  background-color: #1abc9c;
+  background-color: #7fc8a9;
   align-items: center;
 }
 
 .button1:hover .svgIcon {
-  /* width: 20px; */
   transition-duration: 0.3s;
   transform: translateY(-200%);
 }
@@ -833,7 +849,6 @@ textarea.input {
   bottom: -20px;
   content: "Back to Top";
   color: white;
-  /* transition-duration: .3s; */
   font-size: 0px;
 }
 
@@ -841,7 +856,6 @@ textarea.input {
   font-size: 13px;
   opacity: 1;
   bottom: unset;
-  /* transform: translateY(-30px); */
   transition-duration: 0.3s;
 }
 @media screen and (max-width: 1180px) {
@@ -857,4 +871,45 @@ textarea.input {
     margin-left: 0;
   }
 }
- 
+.card-body{
+  height: 12rem;
+}
+.logotekst{
+  color: white;
+  margin-left: 0;
+  margin-bottom: -0.5vh;
+  font-weight: bold;
+  font-size: larger;
+}
+.card i{
+  color: #7fc8a9;
+  font-size: 4.5vh;
+  margin-top: 0.2vh;
+  margin-right: 0.3vh;
+}
+.kontenjer h2{
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    white 67%,
+    #7fc8a9 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;    
+  font-weight: bold;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
