@@ -853,5 +853,8 @@ textarea.input {
   .sekcija2{
     padding-top: 0;
   }
+  .navbar-brand i {
+    margin-left: 0;
+  }
 }
  
