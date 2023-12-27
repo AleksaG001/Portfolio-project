@@ -102,6 +102,7 @@ body {
   .about-text h3 {
     font-size: 35px;
   }
+
 }
 .about-text h4 {
   font-weight: 600;
@@ -387,8 +388,7 @@ body {
 }
 .portfoliowr {
   background-image: url(/assets/img/cover.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   padding-top: 3rem;
   padding-bottom: 8rem;
 }
@@ -899,8 +899,10 @@ textarea.input {
     margin-left: 0;
   }
   .background-container {
-    background-image: url(/assets/img/cover.png);
-    background-position: center;
+    background-image: none;
+    background-position: 100% top 100% left;
+    background-color: #202020;
+    height: 80vh;
   }
 }
 .card-body{
