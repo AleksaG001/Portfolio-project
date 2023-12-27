@@ -900,9 +900,7 @@ textarea.input {
   }
   .background-container {
     background-image: none;
-    background-position: 100% top 100% left;
     background-color: #202020;
-    height: 80vh;
   }
 }
 .card-body{
