@@ -898,6 +898,10 @@ textarea.input {
   .navbar-brand i {
     margin-left: 0;
   }
+  .background-container {
+    background-image: url(/assets/img/cover.png);
+    background-position: center;
+  }
 }
 .card-body{
   height: 12rem;
