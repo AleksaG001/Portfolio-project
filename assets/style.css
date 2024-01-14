@@ -900,7 +900,9 @@ textarea.input {
   }
   .background-container {
     background-image: none;
+    background-position: 100% top 100% left;
     background-color: #202020;
+    height: 80vh;
   }
 }
 .card-body{
@@ -919,11 +921,11 @@ textarea.input {
   margin-top: 0.2vh;
   margin-right: 0.3vh;
 }
-.kontenjer h2{
+.kontenjer h1{
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #7fc8a9 29%,
+    #7fc8a9 0%,
+    #7fc8a9 50%,
     white 67%,
     #7fc8a9 100%
   );
@@ -934,8 +936,8 @@ textarea.input {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;    
-  font-weight: bold;
+  animation: textclip 4s linear infinite;    
+  font-weight:bolder;
 }
 @keyframes textclip {
   to {
